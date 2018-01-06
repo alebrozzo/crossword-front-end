@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav {
+    text-align: left;
+}
+
+.disabledElement {
+    pointer-events: none;
+    opacity: 0.7;
+    filter: alpha(opacity = 50);
+}
+
+.hiddenElement {
+    visibility: hidden;
+}
+
+.noDisplayElement {
+    display: none;
+}
+
+.fullsizeContainer {
+    position: relative;
+}
+
+.flexContainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap; /* Safari */
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around; /* Safari */
+    justify-content: space-around;
+}
+
+.fullSize {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

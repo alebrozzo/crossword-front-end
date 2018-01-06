@@ -1,0 +1,85 @@
+.AppCrossword {
+    width: 100%;
+}
+
+.AppCrossword .parameterConfig {
+    width: 20px;
+    height: 20px;
+}
+
+crossword {
+}
+
+.crossword .crossRow {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.crossword .letterBox {
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.crossword .letterWhiteBox {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.crossword .letterBlackBox {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.crossword .wordNumberContainer {
+    width: 1.3em;
+    height: 1.3em;
+    color: black;
+    font-size: 8px;
+    background-color: transparent;
+    text-align: left;
+}
+
+.AppCrossword .paramConfig {
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+}
+
+.AppCrossword .paramConfig,
+.txtSmall {
+    width: 30px;
+}
+
+.AppCrossword .button,
+btnMedium {
+    width: 6em;
+    height: 3em;
+}
+
+.generatingMsg {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.flexContainer .definitions {
+    margin: 10px;
+    min-width: 100px;
+    max-width: 500px;
+}
+
+.messageBox {
+}
+
+.messageBoxClose {
+    cursor: pointer;
+    text-align: right;
+}
+
+.messageText {
+}
